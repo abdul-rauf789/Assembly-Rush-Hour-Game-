@@ -1,9 +1,5 @@
 # Rush Hour Game - Assembly Language
 
-**AI in Assembly | AI Enthusiast | Passionate about Cybersecurity**
-
----
-
 ## Project Overview
 
 Rush Hour is a **2D car simulation game** written entirely in **x86 Assembly (MASM)** using the **Irvine32 library**. The game challenges players to navigate a car through a city block while avoiding obstacles, picking up passengers, and managing time and score. It includes multiple game modes and difficulty levels, demonstrating advanced **low-level programming**, memory management, and real-time user interaction.
@@ -55,5 +51,5 @@ Rush Hour is a **2D car simulation game** written entirely in **x86 Assembly (MA
 1. Open the project in **MASM / Visual Studio** with Irvine32 library.
 2. Compile the code:
    ```asm
-   ml /c /coff RushHour.asm
-   link /subsystem:console RushHour.obj kernel32.lib Irvine32.lib
+   ml /c /coff Rush_Hour_Game.asm
+   link /subsystem:console Rush_Hour_Game.obj kernel32.lib Irvine32.lib
